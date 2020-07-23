@@ -19,7 +19,7 @@ will run the server.
   * Run `Server.main()` first
   * Run `guiThread.main()` as many times as the number of users you want to create
 * For testing in the different machine
-  * Under the `guiThread class`, change this line in the second machine
+  * Under the `guiThread class`, change this line in the second machine.
   
   ```javascript 
   String serverAddress = "127.0.0.1";

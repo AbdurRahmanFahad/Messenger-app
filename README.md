@@ -20,9 +20,18 @@ will run the server.
   * Run `guiThread.main()` as many times as the number of users you want to create
 * For testing in the different machine
   * Under the `guiThread class`, change this line in the second machine
+  
   ```javascript 
   String serverAddress = "127.0.0.1";
   ``` 
   * If not in same LAN, run `Server.main()` in the machine that has a Public IP. If running in the same LAN then any machine is fine.
   * Set `serverAddress` according to the IP address of the machine in which the `Server.main()` is running
   * Now run `guiThread.main()` 
+
+**After running the application**
+* Type username and any random password, as the password verification and sign up functions has not been implemented yet.
+* Click the `Choose User` button and type the user's name you want to send message to, the user should do the same.
+* Now all good to go. Many users can chat at the same time as multiple clients are handled with `Java Threads`.
+* Pressing Enter Key also works as send.
+
+# Sample images from the application

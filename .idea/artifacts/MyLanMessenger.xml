@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyLanMessenger">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyLanMessenger</output-path>
+    <root id="archive" name="MyLanMessenger.jar">
+      <element id="archive" name="JavaFXApp.jar">
+        <element id="module-output" name="Lan msg" />
+      </element>
+    </root>
+  </artifact>
+</component>

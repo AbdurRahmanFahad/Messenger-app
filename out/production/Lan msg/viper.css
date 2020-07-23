@@ -1,0 +1,20 @@
+.root{
+
+    -fx-font-size: 12pt;
+    -fx-font-style: oblique;
+    -fx-font-weight: 400;
+    -fx-text-fill: #E67E22  ;
+    -fx-text-alignment: center;
+
+
+    -fx-background-image: url("tcpdiff/xrgiovuic3lvzvglhqbk.jpg");
+    -fx-background-size: 100% 100%;
+
+}
+
+.button {
+    -fx-background-color: linear-gradient(#00FFFF, #0000FF),
+    radial-gradient(center 50% -40%, radius 200%, #85C1E9 45%, #2E86C1 50%);
+    -fx-text-fill: #F7F9F9  ;
+    -fx-font-weight: 400;
+}

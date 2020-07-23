@@ -20,10 +20,9 @@ will run the server.
   * Run `guiThread.main()` as many times as the number of users you want to create
 * For testing in the different machine
   * Under the `guiThread class`, change this line in the second machine.
-  <br>
-  ```javascript 
+```javascript 
   String serverAddress = "127.0.0.1";
-  ``` 
+``` 
   * If not in same LAN, run `Server.main()` in the machine that has a Public IP. If running in the same LAN then any machine is fine.
   * Set `serverAddress` according to the IP address of the machine in which the `Server.main()` is running
   * Now run `guiThread.main()` 
@@ -35,3 +34,11 @@ will run the server.
 * Pressing Enter Key also works as send.
 
 # Sample images from the application
+
+Here are some demonstrations from the Messenger application.
+
+**Login Screen**
+![Image 1](/sample/sample1.png)
+**Chatting Screen**
+![Image 2](/sample/sample2.png)
+![Image 3](/sample/sample3.png)
